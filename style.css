@@ -233,7 +233,18 @@ background-color: black;
 
 }
 
-@media screen and (max-width: 768px) {
-    
-}
+@media screen and (max-width: 700px) {
+    #pic{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    #intro h2{
+        text-align: center;
+        padding: 10px;
+    }
 
+    .navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
